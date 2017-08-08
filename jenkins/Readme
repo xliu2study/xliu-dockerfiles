@@ -1,0 +1,12 @@
+This is the docker file for dongwinter/common-images:jenkins in dockerhub.
+It add proxy and updates apt source of 163. Jenkins and related packages are installed.
+
+*Pull it from dockerhub
+docker pull dongwinter/common-images:jenkins
+
+*Build it by docker
+docker build -t xliu2/jenkins ./
+
+*Run it
+docker run -p 8080:8080 --name xliu2jenkins --privileged -d xliu2/jenkins
+

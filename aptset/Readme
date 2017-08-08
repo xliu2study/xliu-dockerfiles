@@ -1,0 +1,9 @@
+This is the docker file for dongwinter/common-images:1 in dockerhub.
+It add proxy and updates apt source of 163.
+
+*Pull it from dockerhub
+docker pull dongwinter/common-images:1
+
+*Build it by docker
+docker build -t xliu2/aptset ./
+
